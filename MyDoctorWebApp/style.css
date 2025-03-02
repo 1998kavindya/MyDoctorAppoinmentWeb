@@ -1,0 +1,180 @@
+﻿*{
+    margin:0;
+    padding:0;
+
+}
+h1{
+    font-family: 'Poor Richard';
+    font-size: 60px;
+
+}
+
+#login {
+    
+    align-content:center;
+    width: 200px;
+}
+
+#SignUp {
+    color: blue;
+    font-size: 15px;
+}
+
+#loginForm {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(188, 199, 168, 0.4);
+}
+
+#loginBtn {
+    
+    width: 360px;
+}
+
+#SignUpForm {
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(188, 199, 168, 0.4);
+}
+
+#SignUpBtn {
+
+    margin-top: 30px;
+    width: 560px;
+
+}
+
+#PatientDashBoard {
+    background-color: rgb(84, 150, 179);
+    height: 80px;
+}
+
+#HospitalDashBoard {
+    background-color: rgb(19, 111, 69);
+    height: 80px;
+}
+
+#DoctorDashBoard {
+    background-color: rgb(82, 27, 131);
+    height: 80px;
+}
+
+#PatientMenu {
+    width: 20vw;
+    background-color: cadetblue;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+#HospitalMenu {
+    width: 20vw;
+    background-color: rgb(25, 72, 53);
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+#DoctorMenu {
+    width: 20vw;
+    background-color: rgb(73, 56, 104);
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+#patientArea {
+/*    background-color: blue;*/
+    position: absolute;
+    top: 80px;
+    left: 20vw;
+    width:80vw;
+/*    height:100vh;*/
+}
+
+#searchbar {
+    width: 300px;
+    height: 40px;
+    display: inline-flex;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    margin: 2px;
+}
+
+#AvailableHos {
+    height:120px;
+    margin: 30px;
+    background-color: rgb(128, 128, 128);
+}
+
+#AvailableDoc {
+    height: 120px;
+    margin: 30px;
+    background-color: rgb(188, 199, 168, 0.4);
+}
+
+#AppoinmentStatus {
+    height: 120px;
+    margin: 30px;
+    background-color: rgb(37, 76, 121);
+}
+
+#cardTitle {
+    margin:6px;
+    font-size:20px;
+    text-align: center;
+    font-family: 'High Tower Text';
+    font-weight: bold;
+}
+
+#menuBar {
+    width: 300px;
+    height: 50px;
+    margin: 16px;
+    padding:4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'High Tower Text';
+    font-weight: bold;
+    background-color: cadetblue;
+/*    border: none;*/
+}
+
+#hosMenuBar {
+    width: 300px;
+    height: 50px;
+    margin: 16px;
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'High Tower Text';
+    font-weight: bold;
+    background-color: rgb(25, 72, 53);
+    color:white;
+    /*    border: none;*/
+}
+
+#DocMenuBar {
+    width: 300px;
+    height: 50px;
+    margin: 16px;
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'High Tower Text';
+    font-weight: bold;
+    background-color: rgb(73, 56, 104);
+    color: white;
+        border: none;
+}
